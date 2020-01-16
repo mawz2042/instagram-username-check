@@ -1,2 +1,6 @@
 # instagram-username-check
-Using this script one can determine whether an Instagram Username already exists
+This script checks whether an Instagram Username is already taken
+
+Check index.php for code
+
+http://tanujnamdeo.me
