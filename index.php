@@ -1,9 +1,3 @@
-<?php 
-if(isset($_POST['submit'])) {
-    
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,7 +57,7 @@ if(isset($_POST['submit'])) {
                 <input type="text" class="form-control w-75" name="instagram" placeholder="Enter username" required autofocus>
                 <input class="btn btn-lg btn-primary" type="submit" name="submit" value="SUBMIT">
             </form>
-
+            <!-- This part checks the username -->
             <?php 
             if(isset($_POST['submit'])) {
                 $username = $_POST['instagram'];
@@ -88,39 +82,3 @@ if(isset($_POST['submit'])) {
 </body>
 
 </html>
-
-
-
-<!--
-<form action="index.php" method="post">
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="inputName">Name</label>
-            <input type="text" class="form-control" name="name" id="inputName" placeholder="Name">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputAge">Age</label>
-            <input type="number" class="form-control" name="age" id="inputAge" placeholder="Age">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="inputEmail">Email</label>
-        <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
-    </div>
-    <div class="form-group">
-        <label for="inputNumber">Phone Number</label>
-        <input type="number" class="form-control" name="number" id="inputNumber" placeholder="Phone Number">
-    </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="inputFacebook">Facebook</label>
-            <input type="text" class="form-control" name="facebook" id="inputFacebook" placeholder="Facebook Id">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="inputInstagram">Instagram</label>
-            <input type="text" class="form-control" name="instagram" id="inputInstagram" placeholder="Instagram Id">
-        </div>
-    </div>
-    <input type="submit" placeholder="Submit" name="submit" class="btn btn-primary">
-</form>
--->
